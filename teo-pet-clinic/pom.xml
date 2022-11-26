@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>mk.kalitek</groupId>
 	<artifactId>teo-pet-clinic</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<name>teo-pet-clinic</name>
 	<description>teo-pet-clinic</description>
 	<properties>
@@ -47,7 +47,7 @@
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:teogrozdanoski/teo-pet-clinic.git</developerConnection>
-		<tag>teo-pet-clinic-0.0.3</tag>
+		<tag>HEAD</tag>
   </scm>
 
 </project>
