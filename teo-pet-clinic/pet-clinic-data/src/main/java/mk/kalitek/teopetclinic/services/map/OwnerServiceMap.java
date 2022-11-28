@@ -2,9 +2,11 @@ package mk.kalitek.teopetclinic.services.map;
 
 import mk.kalitek.teopetclinic.model.Owner;
 import mk.kalitek.teopetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override

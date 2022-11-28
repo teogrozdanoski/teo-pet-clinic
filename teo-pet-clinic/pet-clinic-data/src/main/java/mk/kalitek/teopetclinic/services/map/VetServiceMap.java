@@ -2,9 +2,10 @@ package mk.kalitek.teopetclinic.services.map;
 
 import mk.kalitek.teopetclinic.model.Vet;
 import mk.kalitek.teopetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class VetServiceMap  extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
