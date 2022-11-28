@@ -1,11 +1,11 @@
 package mk.kalitek.teopetclinic.services.map;
 
 import mk.kalitek.teopetclinic.model.Vet;
-import mk.kalitek.teopetclinic.services.CrudService;
+import mk.kalitek.teopetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap  extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap  extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
